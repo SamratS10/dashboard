@@ -86,7 +86,7 @@ const CustomizedAxisTick = (props) => {
 
 export default function GradientChart() {
   return (
-    <div style={{width:"100%"}}>
+    <div>
     <LineChart
       width={500}
       height={300}

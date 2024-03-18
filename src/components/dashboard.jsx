@@ -10,7 +10,7 @@ const Dashboard = ()=>{
             <div className=" w-full mx-2">
                 <Header/>
                 <Card/>
-                <div className=" flex flex-col flex-wrap items-center justify-center">
+                <div className=" flex flex-col items-center justify-center md:flex-row">
                     <GradientChart/>
                     <ChartCard/>
                 </div>

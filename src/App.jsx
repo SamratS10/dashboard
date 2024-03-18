@@ -2,6 +2,7 @@ import './App.css'
 import Dashboard from './components/dashboard'
 import SignIn from './components/login'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import ProtectedRoute from './components/protectedRoute'
 function App() {
 
   return (
